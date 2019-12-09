@@ -170,7 +170,7 @@ special instructions.
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Detailed accessibility information for this building, LEEP2 (Learned Engineering Expansion Phase 2), is located in a <a href="https://accessibility.ku.edu/sites/accessibility.ku.edu/files/docs/Accessible%20Coordinates.xlsx" target="_blank">spreadsheet</a> (XLSX) and a <a href="https://accessibility.ku.edu/sites/accessibility.ku.edu/files/docs/Accessibility%20Map.pdf target="_blank">map</a> (PDF) provided by <a href="https://accessibility.ku.edu" target="_blank">Accessible KU</a>. Accessible parking information is located within KU Parking's <a href="http://parking.ku.edu/sites/parking.drupal.ku.edu/files/files/parkingmap.pdf" target="_blank">parking map</a> (PDF).
+  Detailed accessibility information for this building, LEEP2 (Learned Engineering Expansion Phase 2), is located in a <a href="https://accessibility.ku.edu/sites/accessibility.ku.edu/files/docs/Accessible%20Coordinates.xlsx" target="_blank">spreadsheet</a> (XLSX) and a <a href="https://accessibility.ku.edu/sites/accessibility.ku.edu/files/docs/Accessibility%20Map.pdf" target="_blank">map</a> (PDF) provided by <a href="https://accessibility.ku.edu" target="_blank">Accessible KU</a>. Accessible parking information is located within KU Parking's <a href="http://parking.ku.edu/sites/parking.drupal.ku.edu/files/files/parkingmap.pdf" target="_blank">parking map</a> (PDF).
 </p>
 <p>
   Materials will be provided in advance of the workshop and
@@ -236,6 +236,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
+
+<hr/>
 
 <h2 id="notes">Notes</h2>
 
