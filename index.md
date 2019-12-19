@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "University of Kansas"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room G415, LEEP 2, 1536 W 15th St, Lawrence, KS"      # full street address of workshop 
+address: "Room G415, LEEP 2, 1536 W 15th St, Lawrence, KS"      # full street address of workshop
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "38.957030"     # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -36,7 +36,7 @@ For a workshop please delete the following block
 #<div class="alert alert-danger">
 #This is the workshop template. Delete these lines and use it to customize your
 #own website. If you are running a self-organized workshop or have not put in a
-#workshop request yet, please also fill in 
+#workshop request yet, please also fill in
 #<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
 #about your workshop and our administrator may contact you if we need any extra
 #information.
@@ -119,7 +119,7 @@ address.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>. Visitors to KU should consult KU Parking's <a href="http://parking.ku.edu/visitor-parking" target="_blank">information for visitors</a> and <a href="http://parking.ku.edu/sites/parking.drupal.ku.edu/files/files/parkingmap.pdf" target="_blank">map</a> (PDF)
 </p>
 {% endif %}
 
@@ -170,6 +170,9 @@ special instructions.
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
+  Detailed accessibility information for this building, LEEP2 (Learned Engineering Expansion Phase 2), is located in a <a href="https://accessibility.ku.edu/sites/accessibility.ku.edu/files/docs/Accessible%20Coordinates.xlsx" target="_blank">spreadsheet</a> (XLSX) and a <a href="https://accessibility.ku.edu/sites/accessibility.ku.edu/files/docs/Accessibility%20Map.pdf" target="_blank">map</a> (PDF) provided by <a href="https://accessibility.ku.edu" target="_blank">Accessible KU</a>. Accessible parking information is located within KU Parking's <a href="http://parking.ku.edu/sites/parking.drupal.ku.edu/files/files/parkingmap.pdf" target="_blank">parking map</a> (PDF).
+</p>
+<p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
@@ -205,8 +208,8 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
@@ -224,6 +227,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+<p>During both days of the workshop we will break for 5 minutes at the beginning of every hour.</p>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -232,6 +236,10 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
+
+<hr/>
+
+<h2 id="notes">Notes</h2>
 
 {% comment %}
 Collaborative Notes
@@ -245,7 +253,7 @@ e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}" target="_blank">collaborative document</a>, called an Etherpad, for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
